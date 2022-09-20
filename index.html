@@ -1,0 +1,45 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Weather App</title>
+		<link rel="stylesheet" href="style.css">
+
+
+		<!--Google Font-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<section class="header">
+				<h1 class="title">Weather Ninja</h1>
+				<form class="search">
+					<label for="city"
+						>Enter a location for weather information</label
+					>
+					<p>
+						<input type="text" name="city"class="city_name" />
+					</p>
+				</form>
+			</section>
+			<section class="body show">
+				<img src="https://via.placeholder.com/400X300" class="card">
+				<div class="details">
+					<p class="city_value">City_name</p>
+					<p class="climate_type">climate_type</p>
+					<p class="temperature">Temp</p>
+				</div>
+
+			</section>
+		</div>
+		<script src="scripts/forecast.js"></script>
+		<script src="scripts/app.js"></script>
+		
+	</body>
+</html>
